@@ -1,0 +1,29 @@
+{
+  "name": "react_webpack-_starter",
+  "version": "1.0.0",
+  "description": "Boilerplate for React apps",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
+  },
+  "author": "Alice Gdj",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
